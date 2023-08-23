@@ -15,7 +15,8 @@ export class AuComponent implements OnInit {
     //this.auArray = this._countrysrevice.getalldata()
 //this.auArray.filter(((ele: { countryCode: string; }) => ele.countryCode === "AU"));
     
-    this.auArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "AU")
+   // this.auArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "AU")
+   this.auArray = this._countrysrevice.getalldata('AU');
   
    
     

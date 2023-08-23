@@ -14,7 +14,8 @@ export class GbComponent implements OnInit {
   ngOnInit(): void {
  
     
-    this.GbArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "GB")
+    //this.GbArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "GB")
+    this.GbArray = this._countrysrevice.getalldata('GB');
   
    
     

@@ -1,4 +1,14 @@
-
-<ul class="list-group mt-4">
+<!-- <ul class="list-group mt-4">
     <li class="list-group-item" *ngFor="let au of auArray">{{au.venue}} </li>
-</ul>
+</ul> -->
+
+
+
+<div class="d-flex">
+    <ul class="list-group mt-4">
+        <li class="list-group-item" *ngFor="let au of auArray">{{au.venue}} </li>
+    </ul>
+    <ul class="list-group mt-4 ">
+        <li class="list-group-item dli" *ngFor="let au of auArray"><strong class="amk">{{(au.date/86400000).toFixed(2)}}</strong> </li>
+    </ul>
+</div>

@@ -14,8 +14,9 @@ export class RaComponent implements OnInit {
   ngOnInit(): void {
  
     
-    this.raArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "RA")
-  
+    //this.raArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "RA")
+    this.raArray = this._countrysrevice.getalldata('RA');
+    
    
     
   }

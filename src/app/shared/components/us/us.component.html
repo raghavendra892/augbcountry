@@ -1,4 +1,17 @@
-
-<ul class="list-group mt-4">
+<!-- <ul class="list-group mt-4">
     <li class="list-group-item" *ngFor="let us of usArray">{{us.venue}} </li>
-</ul>
+</ul> -->
+
+
+<div class="d-flex">
+    <ul class="list-group mt-4">
+        <li class="list-group-item" *ngFor="let us of usArray">{{ us.venue }}</li>
+
+    </ul>
+
+    <ul class="list-group mt-4">
+        <li class="list-group-item" *ngFor="let us of usArray">
+            <strong class="amk">{{(us.date/86400000).toFixed(2)}}</strong>
+        </li>
+    </ul>
+</div>

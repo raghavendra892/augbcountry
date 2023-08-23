@@ -14,7 +14,7 @@ export class UsComponent implements OnInit {
   ngOnInit(): void {
  
     
-    this.usArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "US")
+    this.usArray = this._countrysrevice.getalldata('US');
   
    
     
