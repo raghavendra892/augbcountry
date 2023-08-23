@@ -1,0 +1,29 @@
+
+
+
+
+.navbar{
+    background-color: #cccccc;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #20201f;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    
+    // color: rgb(32, 184, 131);
+    // border-bottom: 4px solid rgb(32, 184, 131);
+    background-color: #20201f;
+    color: #cccccc;
+    width: 40px;
+    height: 46px;
+
+}
+
+.navbar {
+    padding: 0 !important;
+}
