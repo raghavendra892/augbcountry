@@ -12,13 +12,7 @@ export class RaComponent implements OnInit {
   constructor(private _countrysrevice : CountryService) { }
 
   ngOnInit(): void {
- 
-    
-    //this.raArray = this._countrysrevice.getalldata().filter(ele => ele.countryCode === "RA")
     this.raArray = this._countrysrevice.getalldata('RA');
-    
-   
-    
   }
 
 }

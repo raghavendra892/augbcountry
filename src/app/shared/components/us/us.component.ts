@@ -12,12 +12,7 @@ export class UsComponent implements OnInit {
   constructor(private _countrysrevice : CountryService) { }
 
   ngOnInit(): void {
- 
-    
     this.usArray = this._countrysrevice.getalldata('US');
-  
-   
-    
   }
 
 }
