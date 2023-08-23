@@ -8,12 +8,11 @@ import { Icountr } from '../../model/interface';
   styleUrls: ['./au.component.scss']
 })
 export class AuComponent implements OnInit {
-  auArray : any = [];
-  constructor(private _countrysrevice : CountryService) { }
+  auArray: any = [];
+  constructor(private _countrysrevice: CountryService) { }
 
   ngOnInit(): void {
-   this.auArray = this._countrysrevice.getalldata('AU');
+    this.auArray = this._countrysrevice.getalldata('AU');
 
   }
-
 }

@@ -7,14 +7,11 @@ import { CountryService } from '../../services/country.service';
   styleUrls: ['./gb.component.scss']
 })
 export class GbComponent implements OnInit {
-
   GbArray : any = [];
   constructor(private _countrysrevice : CountryService) { }
 
   ngOnInit(): void {
     this.GbArray = this._countrysrevice.getalldata('GB');
-  
-   
-    
+
   }
 }
